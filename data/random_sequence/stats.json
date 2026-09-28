@@ -1,0 +1,7 @@
+{
+  "domain": "Random Sequence",
+  "task": "Exact Long-String Reproduction",
+  "train_tasks": 2250,
+  "test_tasks": 250,
+  "total_tasks": 2500
+}

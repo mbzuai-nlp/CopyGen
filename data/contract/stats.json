@@ -1,0 +1,7 @@
+{
+  "domain": "Contract",
+  "task": "Legal Clause Extraction",
+  "train_tasks": 658,
+  "test_tasks": 141,
+  "total_tasks": 799
+}

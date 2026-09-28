@@ -1,0 +1,7 @@
+{
+  "domain": "Literature",
+  "task": "Scientific Evidence Extraction",
+  "train_tasks": 712,
+  "test_tasks": 145,
+  "total_tasks": 857
+}

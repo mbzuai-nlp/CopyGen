@@ -4,7 +4,7 @@
   <a href="https://neurips.cc">
     <img src="https://img.shields.io/static/v1?label=Conference&message=NeurIPS%202026&color=blue" alt="NeurIPS 2026">
   </a>
-  <a href="https://arxiv.org/pdf/">
+  <a href="https://arxiv.org/pdf/2610.28393">
     <img src="https://img.shields.io/static/v1?label=Paper&message=arXiv:2610.28393&color=red&logo=arxiv" alt="Paper">
   </a>
   <a href="LICENSE">

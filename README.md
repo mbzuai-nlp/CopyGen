@@ -5,7 +5,7 @@
     <img src="https://img.shields.io/static/v1?label=Conference&message=NeurIPS%202026&color=blue" alt="NeurIPS 2026">
   </a>
   <a href="https://arxiv.org/pdf/">
-    <img src="https://img.shields.io/static/v1?label=Paper&message=arXiv:26xx.xxxxx&color=red&logo=arxiv" alt="Paper">
+    <img src="https://img.shields.io/static/v1?label=Paper&message=arXiv:2610.28393&color=red&logo=arxiv" alt="Paper">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
@@ -81,7 +81,6 @@ python model/eval_copy_constrained.py \
   --copy-stats-out outputs/predictions/random_sequence_copy_stats.json \
   --copy-hist-out outputs/predictions/random_sequence_copy_hist.png \
   --cuda-visible-devices 0 \
-  --disable-thinking
 ```
 
 For fixed-length span proposal ablations, pass `--fixed-copy-length K`. To remove margin calibration at decoding time, pass `--no-margin-calibration`.
@@ -97,14 +96,11 @@ The released `data/` directory is already prepared, so the generation scripts ar
 ## Citation
 
 ```bibtex
-@inproceedings{copygen2026,
+@inproceedings{zhang2026copygen,
   title={When Copying Is Hard: Copy-Constrained Decoding for Exact Span Reproduction},
-  author={},
-  booktitle={},
+  author={Jinghui Zhang and Lang Gao and Zongfang Liu and Ruihong Zeng and Zirui Song and Rui Yan and Kentaro Inui and Xiuying Chen},
+  booktitle={The Fortieth Annual Conference on Neural Information Processing Systems},
   year={2026},
-  note={To appear},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
 }
 ```
 
